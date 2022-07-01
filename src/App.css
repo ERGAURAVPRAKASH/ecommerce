@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+
+.App{
+  background-color: rgba(125, 177, 236, 0.273);
+}
+
 .ui.cards > .card > .image {
   height: 250px;
   padding: 20px;
@@ -40,6 +45,28 @@
 .ui.menu.fixed {
   height: 60px;
   padding-top: 15px;
+  background-color: rgb(177, 209, 246);
+  border-bottom: 1.5px solid rgb(59, 143, 240);   
+}
+
+.ui.container.center{
+  color: rgb(4, 86, 179);
+}
+
+.ui.inverted.vertical.footer.segment{
+  background-color: rgb(177, 209, 246);
+  border-top: 1.5px solid rgb(59, 143, 240);   
+  margin-top: 20px;
+  
+}
+
+.ui.container.center.footer{
+  font-size: 16px;
+  color: rgb(4, 86, 179);
+  font-weight: 700;
+  display: grid;
+  justify-content: center;
+  align-items: center
 }
 
 .ui.grid.container {
