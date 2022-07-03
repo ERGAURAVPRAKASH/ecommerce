@@ -22,15 +22,13 @@ const ProductPage = () => {
 
   console.log("Products :", products);
   return (
-    <>
-    {Object.keys(data).length === 0 ? (
-        <div>...Loading</div>
+    <div className="ui grid container">
+      {Object.keys(products).length === 0 ? (
+        <div style={{fontSize:'50px', margin:'50px',paddingTop:'20px', color:'#2c83f5'}}>...Loading</div>
         ) : (
-        <div className="ui grid container">
-          <ProductComponent />
-        </div>
+      <ProductComponent />
         )}
-    </>
+    </div>
   );
 };
 
